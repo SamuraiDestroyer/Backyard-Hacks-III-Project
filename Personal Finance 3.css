@@ -1,0 +1,192 @@
+.investment-and-savings .left {
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  height: 585px;
+  background: white;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #14213d;
+  padding: 20px;
+  position: relative;
+  right: 70px;
+  top: 48px;
+  overflow: hidden;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.investment-and-savings .left {
+  box-sizing: border-box;
+  padding-top: 10px;
+  background: #14213d;
+  color: white;
+}
+
+.investment-and-savings .title {
+  margin-top: 16px;
+}
+
+.investment-and-savings .middle {
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  height: 583.5px;
+  margin: 24px auto;
+  background: white;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #14213d;
+  position: relative;
+  bottom: 560px;
+  overflow: hidden;
+}
+
+.investment-and-savings .middle h2 {
+  text-align: center;
+}
+
+.investment-and-savings .middle {
+  box-sizing: border-box;
+}
+
+.investment-and-savings .title {
+  font-weight: 900;
+}
+
+.investment-and-savings .left-middle {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.investment-and-savings .right-middle-pie {
+  position: relative;
+  left: 300px;
+  bottom: 500px;
+  width: 50%;
+}
+
+.investment-and-savings .right-middle-graph {
+  position: relative;
+  left: 400px;
+  bottom: 300px;
+}
+
+.investment-and-savings .left-middle .value {
+  font-size: 20px;
+  font-weight: 900;
+  width: 50%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+}
+
+.investment-and-savings .calculate-btn {
+  background: rgb(122, 126, 189);
+  color: white;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.investment-and-savings .left-middle .current-amount .value::before {
+  content: "$";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.investment-and-savings .left-middle .total-amount .value::before {
+  content: "$";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.investment-and-savings .left-middle .amount-left .value::before {
+  content: "$";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.investment-and-savings .left-middle .end-balance .value::before {
+  content: "$";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.investment-and-savings .left-middle .percentage-spend .value::after {
+  content: "%";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: grey;
+}
+
+.investment-and-savings .right {
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  background: white;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #14213d;
+  padding: 10px;
+  position: relative;
+  left: 781px;
+  bottom: 1168px;
+  height: 585px;
+  overflow: hidden;
+}
+
+.investment-and-savings .right {
+  box-sizing: border-box;
+  background: #14213d;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+@media (max-width: 650px) {
+  .loan-calculator {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .loan-calculator form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .loan-calculator .result {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Finance: Budgeting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Personal Finance 2.css"/>
+  </head>
+  <body>
+    <div class="budget-calculator" id="wrapper">
+      <div class="left">
+
+        <form>
+          <div class="group">
+            <div class="title">Current Amount</div>
+            <input type="text" value="78500" class="current"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Food</div>
+            <input type="text" value="2000" class="food"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Transportation</div>
+            <input type="text" value="2000" class="transportation"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Clothing</div>
+            <input type="text" value="1000" class="clothing"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Medical/Healthcare</div>
+            <input type="text" value="5000" class="healthcare"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Household Items/Supplies</div>
+            <input type="text" value="1000" class="supplies"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Personal</div>
+            <input type="text" value="500" class="personal"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Education</div>
+            <input type="text" value="5000" class="education"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Gifts/Donations</div>
+            <input type="text" value="1000" class="gifts"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Entertainment </div>
+            <input type="text" value="1000" class="entertainment"/>
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="middle">
+        <h2>Budget Calculator</h2>
+
+        <div class="left-middle">
+          <div class="current-amount">
+            <h3>Current Balance</h3>
+            <div class="value">78500</div>
+          </div>
+
+          <div class="total-budget">
+            <h3>Total Budget</h3>
+            <div class="value">18500</div>
+          </div>
+
+          <div class="percentage-budget">
+            <h3>Percentage Budget</h3>
+            <div class="value">24</div>
+          </div>
+
+          <div class="amount-left">
+            <h3>New Balance</h3>
+            <div class="value">60000</div>
+          </div>
+
+          <button class="calculate-btn">Calculate</button>
+        </div>
+
+        <div class="right-middle-pie1"><canvas id="myChart4" width="400" height="400"></canvas></div>
+        <div class="right-middle-pie"><canvas id="myChart3" width="400" height="400"></canvas></div>
+      </div>
+
+      <div class="right">
+        <h3>Personal Finance Options</h3>
+
+        <a href="Personal Finance 1.html">Personal Finance: Tax and Expenses</a>
+        <br>
+        <br>
+        <a href="Personal Finance 2.html">Personal Finance: Budgeting</a>
+        <br>
+        <br>
+        <a href="Personal Finance 3.html">Personal Finance: Investment and Savings</a>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+
+      <script src="Personal Finance 2.js"></script>
+    </div>
+  </body>
+</html>

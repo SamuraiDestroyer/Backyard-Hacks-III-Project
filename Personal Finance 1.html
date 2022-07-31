@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Finance: Tax and Expenses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Personal Finance 1.css"/>
+  </head>
+  <body>
+    <div class="tax-and-expenses-calculator" id="wrapper">
+      <div class="left">
+
+        <form>
+          <div class="group">
+            <div class="title">Salary/Income</div>
+            <input type="text" value="100000" class="income"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Tax Percentage</div>
+            <input type="text" value="13" class="tax"/>
+          </div>
+
+          <h4>Expenses</h4>
+
+          <div class="group">
+            <div class="title">Housing</div>
+            <input type="text" value="5000" class="housing"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Utilities</div>
+            <input type="text" value="1000" class="utilities"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Insurance</div>
+            <input type="text" value="2000" class="insurance"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Debt</div>
+            <input type="text" value="500" class="debt"/>
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="middle">
+        <h2>Tax and Expenses Calculator</h2>
+
+        <div class="left-middle">
+          <div class="tax-amount">
+            <h3>Tax Amount</h3>
+            <div class="value">13000</div>
+          </div>
+
+          <div class="total-expenses">
+            <h3>Total Expenses</h3>
+            <div class="value">8500</div>
+          </div>
+
+          <div class="total-percentage">
+            <h3>Total Percentage Spend</h3>
+            <div class="value">22</div>
+          </div>
+
+          <div class="amount-left">
+            <h3>Amount Left</h3>
+            <div class="value">78500</div>
+          </div>
+
+          <button class="calculate-btn">Calculate</button>
+        </div>
+
+        <div class="right-middle-one"><canvas id="myChart" width="400" height="400"></canvas></div>
+        <div class="right-middle-two"><canvas id="myChart2" width="400" height="400"></canvas></div>
+      </div>
+
+      <div class="right">
+        <h3>Personal Finance Options</h3>
+
+        <a href="Personal Finance 1.html">Personal Finance: Tax and Expenses</a>
+        <br>
+        <br>
+        <a href="Personal Finance 2.html">Personal Finance: Budgeting</a>
+        <br>
+        <br>
+        <a href="Personal Finance 3.html">Personal Finance: Investment and Savings</a>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+
+      <script src="Personal Finance 1.js"></script>
+    </div>
+  </body>
+</html>

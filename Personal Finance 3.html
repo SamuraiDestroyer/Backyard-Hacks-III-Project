@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Finance: Investment and Savings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Personal Finance 3.css"/>
+  </head>
+  <body>
+    <div class="investment-and-savings" id="wrapper">
+      <div class="left">
+
+        <form>
+          <div class="group">
+            <div class="title">Current Amount</div>
+            <input type="text" value="60000" class="current"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Starting Amount Investment</div>
+            <input type="text" value="10000" class="starting-amount"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Years</div>
+            <input type="text" value="10" class="years"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Return Rate</div>
+            <input type="text" value="10" class="return-rate"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Compound</div>
+            <input type="text" value="1" class="compound"/>
+          </div>
+
+          <div class="group">
+            <div class="title">Savings</div>
+            <input type="text" value="10000" class="savings"/>
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="middle">
+        <h2>Investment and Savings Calculator</h2>
+
+        <div class="left-middle">
+          <div class="current-amount">
+            <h3>Current Balance</h3>
+            <div class="value">60000</div>
+          </div>
+
+          <div class="total-amount">
+            <h3>Total Amount Spend</h3>
+            <div class="value">20000</div>
+          </div>
+
+          <div class="percentage-spend">
+            <h3>Percentage Spend</h3>
+            <div class="value">33</div>
+          </div>
+
+          <div class="amount-left">
+            <h3>New Balance</h3>
+            <div class="value">10000</div>
+          </div>
+
+          <div class="end-balance">
+            <h3>End Balance Investment</h3>
+            <div class="value">25937</div>
+          </div>
+
+          <button class="calculate-btn">Calculate</button>
+        </div>
+
+        <div class="right-middle-pie"><canvas id="myChart5" width="400" height="400"></canvas></div>
+      </div>
+
+      <div class="right">
+        <h3>Personal Finance Options</h3>
+
+        <a href="Personal Finance 1.html">Personal Finance: Tax and Expenses</a>
+        <br>
+        <br>
+        <a href="Personal Finance 2.html">Personal Finance: Budgeting</a>
+        <br>
+        <br>
+        <a href="Personal Finance 3.html">Personal Finance: Investment and Savings</a>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+
+      <script src="Personal Finance 3.js"></script>
+    </div>
+  </body>
+</html>

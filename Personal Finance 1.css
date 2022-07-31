@@ -1,0 +1,189 @@
+.tax-and-expenses-calculator .left {
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  height: 585px;
+  background: white;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #14213d;
+  padding: 20px;
+  position: relative;
+  right: 70px;
+  top: 48px;
+  overflow: hidden;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.tax-and-expenses-calculator .left {
+  box-sizing: border-box;
+  padding-top: 10px;
+  background: #14213d;
+}
+
+.tax-and-expenses-calculator .title {
+  margin-top: 16px;
+  color: white
+}
+
+.tax-and-expenses-calculator .middle {
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  height: 583.5px;
+  margin: 24px auto;
+  background: white;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #14213d;
+  position: relative;
+  bottom: 560px;
+  overflow: hidden;
+}
+
+.tax-and-expenses-calculator .middle h2 {
+  text-align: center;
+}
+
+.tax-and-expenses-calculator .middle {
+  box-sizing: border-box;
+}
+
+.tax-and-expenses-calculator .title {
+  font-weight: 900;
+}
+
+.tax-and-expenses-calculator .left-middle {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.tax-and-expenses-calculator .right-middle-one {
+  position: relative;
+  left: 300px;
+  bottom: 500px;
+  width: 40%;
+}
+
+.tax-and-expenses-calculator .right-middle-two {
+  position: relative;
+  left: 300px;
+  bottom: 485px;
+  width: 40%;
+}
+
+.tax-and-expenses-calculator .left-middle .value {
+  font-size: 30px;
+  font-weight: 900;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+}
+
+.tax-and-expenses-calculator .calculate-btn {
+  background: rgb(122, 126, 189);
+  color: white;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 24px 0;
+}
+
+.tax-and-expenses-calculator .left-middle .tax-amount .value::before {
+  content: "$";
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.tax-and-expenses-calculator .left-middle .total-expenses .value::before {
+  content: "$";
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.tax-and-expenses-calculator .left-middle .amount-left .value::before {
+  content: "$";
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: gold;
+}
+
+.tax-and-expenses-calculator .left-middle .total-percentage .value::after {
+  content: "%";
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 7px;
+  opacity: 0.5;
+  color: grey;
+}
+
+.tax-and-expenses-calculator .right {
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  background: white;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #14213d;
+  padding: 10px;
+  position: relative;
+  left: 781px;
+  bottom: 1168px;
+  height: 585px;
+  overflow: hidden;
+}
+
+.tax-and-expenses-calculator .right {
+  box-sizing: border-box;
+  background: #14213d;
+  color: white;
+}
+
+h4 {
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+  border-color: white;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+@media (max-width: 650px) {
+  .loan-calculator {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .loan-calculator form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .loan-calculator .result {
+    flex-direction: column;
+    text-align: center;
+  }
+}
